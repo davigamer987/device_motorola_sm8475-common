@@ -281,10 +281,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.rkp-V1-ndk.vendor \
     android.hardware.security.keymint-V1-ndk.vendor
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.motorola_taro
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cape.xml \
