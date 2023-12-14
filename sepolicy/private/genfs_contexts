@@ -1,2 +1,0 @@
-# DC Dimming
-genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc                      u:object_r:vendor_sysfs_dc_dim:s0
